@@ -2,8 +2,7 @@
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <NavBar></NavBar>
       </nav>
     </div>
   </header>
@@ -12,7 +11,8 @@
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
+import NavBar from '@/components/Navigation/NavBar.vue';
 </script>
 
 <style scoped></style>
